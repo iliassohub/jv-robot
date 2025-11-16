@@ -32,5 +32,6 @@ public class RobotRoute {
             orientTo(robot, Direction.LEFT);
             robot.stepForward();
         }
+
     }
 }
