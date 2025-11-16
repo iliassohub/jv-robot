@@ -12,7 +12,7 @@ public class RobotRoute {
         }
     }
 
-    private void moveAlongY(Robot robot, int toY){
+    private void moveAlongY(Robot robot, int toY) {
         while (robot.getY() < toY) {
             orientTo(robot, Direction.UP);
             robot.stepForward();
