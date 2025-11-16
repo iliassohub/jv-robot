@@ -22,6 +22,7 @@ public class RobotRoute {
             robot.stepForward();
         }
     }
+
     private void moveAlongX(Robot robot, int toX) {
         while (robot.getX() < toX) {
             orientTo(robot, Direction.RIGHT);
